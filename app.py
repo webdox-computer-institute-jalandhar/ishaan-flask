@@ -20,7 +20,7 @@ def products():
         "Name": "Alice",
         "Age": 30,
         "Country": "USA",
-        "Occupation": "Architech"
+        "Occupation": "Enginner"
     }
     return render_template("products.html", my_dict=my_dict)
 
